@@ -1,0 +1,52 @@
+.form {
+  margin-top: 18vh;
+  margin-bottom: 0%;
+}
+.form > form {
+  display: flex;
+  flex-direction: column;
+  width: 20%;
+  text-align: left;
+  margin: auto;
+  border: 2px solid white;
+  vertical-align: middle;
+  padding: 2%;
+  border-radius: 10px;
+  color: white;
+}
+.form > form > input {
+  margin-bottom: 2vh;
+  height: 20px;
+  font-size: 20px;
+  border: 2px solid white;
+  background: transparent;
+  border-radius: 5px;
+}
+.form > form > select {
+  margin-bottom: 2vh;
+  height: 36px;
+  font-size: 18px;
+  padding: 2%;
+  border: 2px solid white;
+  background: transparent;
+  color: white;
+  border-radius: 5px;
+}
+.form > form > label {
+  margin-bottom: 1vh;
+}
+.form > form > button {
+  background-color: pink;
+  border: 2px solid white;
+  width: 100%;
+  margin: auto;
+  margin-top: 2vh;
+  font-size: 20px;
+  border-radius: 5px;
+}
+.homeinputfield {
+  color: white;
+}
+.newroombtn {
+  color: chartreuse;
+}

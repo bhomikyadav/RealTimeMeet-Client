@@ -1,0 +1,36 @@
+.section1{
+    border:1px solid white;
+    flex:0.2;
+    padding:1%;
+}
+.s1d1{
+    border:1px solid white;
+    border-radius:3px;
+}
+.s1d1>div{
+    border-bottom:1px solid white;
+    border-radius:3px;
+    color:white;
+    padding: 4% 2%;
+    display: flex;
+}
+.s1d2{
+    border:1px solid white;
+    border-radius:3px;
+    display:flex; 
+    flex-direction:column;
+    padding: 4% 2%;
+}
+.s1d2>button{
+    border:1px solid white;
+    border-radius:3px;
+    color:black;
+    margin: auto;
+    margin-top: 1vh;
+    margin-bottom: 1vh;
+    height: 26px;
+    width: 60%;
+}
+.s1d2>button:hover{
+    cursor: pointer;
+}
